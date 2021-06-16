@@ -177,6 +177,7 @@
 // header end
 // tabs start
 .clients{
+    padding-bottom: 88px;
     h2{
         font-size: 36px;
         font-weight: 500;
@@ -230,6 +231,79 @@
     }
 }
 // tabs end
-  
+// advantages start  
+.advantages{
+    background-color: #fff;
+    padding: 40px 0px;
+    h2{
+        font-size: 36px;
+        font-weight: 500;
+        color: #1b212b;
+    }
+    span{
+        font-size: 15px;
+        font-weight: 500;
+        color: #1b212b;
+        
+    }
+}
+.advantages__inner{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.advantages__item{
+    max-width: 415px;
+    margin-top: 30px;
+    padding: 0px 15px;
+    .title{
+        display: flex;
+        align-items: center;
+        &__icon{
+            height: 50px;
+            width: 50px;
+            background-color: #f6f9fc;
+            border-radius: 50%;
+            position: relative;
+            span{
+                position: absolute;
+                top: 13px;
+                left: 11px;
+                font-size: 24px;
+                font-weight: 700;
+                color: #2a579c;
+            }
+        }
+        h3{
+            max-width: 314px;
+            margin-left: 12px;
+        }
+    }
+    p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+}
+.advantages__form{
+    padding: 60px 0px 60px 70px;
+    background-color: #f6f9fc;
+    form{
+        input{
+            height: 62px;
+            width: 249px;
+            border-radius: 6px;
+            box-shadow: inset 0px 3px 7px 0px rgba(27, 33, 43, 0.13);
+            border: none;
+            outline: none;
+            padding: 0px 10px;
+        }
+        .input__btn,
+        .main__btn{
+            margin-left: -9px;
+            background-color: #ee3c3c;
+        }
+    }
+}
+// advantages end
 
 
