@@ -2,9 +2,179 @@
 @import 'global';
 @import 'fonts';
 
+.header{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    h1{
+        font-size: 72px;
+        color: #1b212b;
+        text-transform: uppercase;
+        span{
+            color: #2a579c;
+        }
+    }
+    h2{
+        font-size: 40px;
+        margin-top: -49px;
+        color: #1b212b;
+        span{
+            color: #2a579c;
+        }
+    }
+    p{
+        max-width: 822px;
+        font-size: 15px;
+        line-height: 24px;
+        font-weight: 500;
+        color: #1b212b;
+        margin-top: -17px;
+    }
+}
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 21px;
+}
+.header__logo-box{
+    position: relative;
+    .header__logo{
+        span{
+            position: absolute;
+            top: 32px;
+            left: 102px;
+            font-size: 11px;
+            color: #2a579c;
+        }
+    }
+    p{
+        display: inline-block;
+        margin-left: 56px;
+        line-height: 21px;
+        color: #1b212b;
+    }
+}
+.number__inner{
+    display: flex;
+    .number__box{
+        margin-right: 26px;
+        span{
+            font-weight: 700;
+            font-size: 16px;
+            color: #2a579c;
+            line-height: 24px;
+        }
+        a{
+            margin-left: 70px;
+            font-weight: 400;
+            color: #e41a22;
+            font-size: 13px;
+        }
+    }
+    .burger__btn{
+        background-color: #2a579c;
+        height: 36px;
+        width: 36px;
+        border-radius: 4px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        div{
+            width: 17px;
+            height: 2px;
+            background-color: #fff;
+            margin: 2px 0;
+        }
+    }
+}
+.header__form{
+    form{
+        input{
+            height: 62px;
+            width: 249px;
+            border-radius: 6px;
+            box-shadow: inset 0px 3px 7px 0px rgba(27, 33, 43, 0.13);
+            border: none;
+            outline: none;
+            padding: 0px 10px;
+        }
+        button{
+            height: 73px;
+            width: 270px;
+            border: none;
+            border-radius: 6px;
+            background-color: #1a8cbf;
+            color: #fff;
+            font-weight: 500;
+            & + button{
+                margin-left: 34px;
+            }
+        }
+        .input__btn{
+            margin-left: -9px;
+            background-color: #ee3c3c;
+        }
+    }
+}
+.header__advantages{
+    margin-top: 48px;
+    .header__advantages-box{
+        display: flex;
+        align-items: center;
+        margin-left: 260px;
+        & + .header__advantages-box{
+            margin-top: 29px;
+        }
+    }
+    .header__advantages-text{
+        max-width: 320px;
+        margin-left: 19px;
+        font-size: 15px;
+        line-height: 24px;
+        color: #1b212b;
+    }
+    .icon{
+        height: 58px;
+        width: 58px;
+        background-color: #fff;
+        border-radius: 50%;
+        left: 0;
+        top: 0;
+        &::before{
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+    .icon-counter{
+        position: relative;
+        &::before{
+            content: url("../images/icons/pressure-gauge.svg");
+            position: absolute;
+        }
+    }
+    .icon-delivery{
+        position: relative;
+        &::before{
+            content: url("../images/icons/oil-tank.svg");
+            position: absolute;
+        }
+    }
+    .icon-filtr{
+        position: relative;
+        &::before{
+            content: url("../images/icons/filter.svg");
+            position: absolute;
+        }
+    }
+}
 
 
 
-
+  
 
 
