@@ -305,5 +305,139 @@
     }
 }
 // advantages end
+// tech-inspection start
+.tech-inspection{
+    padding: 60px 0px;
+}
+.tech-inspection__inner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 555px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 22px;
+}
+.tech-inspection__content{
+    width: 670px;
+    color: #fff;
+    h4{
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: -35px;
+    }
+    .bg-box{
+        background-color: #ef3f3e;
+        border-radius: 5px;
+        transform: skew(-15deg);
+        padding-left: 15px;
+        h3{
+            font-size: 40px;
+            line-height: 55px;
+            font-weight: 400;
+            text-transform: uppercase;
+            transform: skew(15deg);
+            margin-bottom: -23px;
+        }
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .text__box{
+        display: flex;
+        justify-content: space-between;
+        p{
+            display: inline-block;
+            max-width: 320px;
+            font-size: 18px;
+            font-weight: 700;
+            padding-left: 14px;
+            position: relative;
+            &::before{
+                content: '.';
+                color: #e41a22;
+                position: absolute;
+                left: 5px;
+                top: -4px;
+            }
+            & + p{
+                margin-left: 46px;
+            }
+        }
+    }
+}
+.tech-inspection__form{
+    max-width: 425px;
+    background-color: #2a579c;
+    border-radius: 7px;
+    text-align: center;
+    color: #fff;
+    h2{
+        text-transform: uppercase;
+        font-size: 24px;
+        line-height: 40px;
+    }
+    p{
+        max-width: 255px;
+        margin: 0 auto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .input__name,
+    .input__phone{
+        width: 300px;
+        height: 50px;
+        border-radius: 6px;
+        margin: 8px 0px;
+        padding: 17px;
+        border: none;
+    }
+    button{
+        width: 300px;
+        height: 74px;
+        border-radius: 6px;
+        background-color: #ef3e3d; 
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        border: none;
+        margin: 14px 0px 35px;
+    }
+    .check-box{
+        position: absolute;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+        padding-left: 20px;
+    }
+    .check-style{
+        height: 15px;
+        width: 15px;
+        border: 1px solid #b9c9df;
+        position: absolute;
+        margin-left: -20px;
+    }
+    .check-box{
+        &:checked + .check-style{
+            &::before{
+                content: '\e900';
+                font-family: 'icomoon';
+                font-size: 10px;
+                color: #fff;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
 
+  
+  
 
+// tech-inspection end
