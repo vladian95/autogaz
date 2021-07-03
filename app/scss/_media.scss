@@ -1,4 +1,4 @@
-@media (max-width: 1360px){
+@media (max-width: 1365px){
     .tab-content{
         .tab-item{
             .tab-item__content{
@@ -12,6 +12,20 @@
             }
         }
     }  
+    .advantages__form{
+        &::before{
+            display: none;
+        }
+    }
+    .advantages__item{
+        .title{ 
+            h3{
+                max-width: 100%;
+                margin-left: 10px;
+            }
+        }
+        max-width: 50%;
+    }
 }
 @media (max-width: 1230px){
     .tabs{
@@ -31,6 +45,9 @@
                 margin-top: 10px;
             }
         }
+    }
+    .advantages__item{
+        max-width: 100%;
     }
 }
 @media (max-width: 860px){
@@ -70,6 +87,16 @@
         }
     } 
 }
+@media (max-width: 790px){
+    .advantages__item{
+        .title{
+            display: block;
+            h3{
+                margin-left: 0;
+            }
+        }
+    } 
+}
 @media (max-width: 740px){
     .header__form{
         form{
@@ -102,6 +129,29 @@
         .tab-item{
             .tabs__image{
                 display: none;
+            }
+        }
+    }  
+    .advantages{
+        h2{
+            font-size: 26px;
+        }
+        span{
+            max-width: 372px;
+            display: block;
+        }
+    } 
+    .advantages__form{
+        padding: 15px 5px;
+        form{
+            .main__btn{
+                display: block;
+                width: 100%;
+                margin-top: 20px;
+                margin-left: 0;
+            }
+            input{
+                width: 100%;
             }
         }
     }  
@@ -170,6 +220,14 @@
     .clients{
         h2{
             font-size: 17px;
+        }
+    } 
+    .advantages{
+        h2{
+            font-size: 21px;
+        }
+        span{
+            font-size: 14px;
         }
     } 
 }
