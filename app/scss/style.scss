@@ -632,6 +632,7 @@
         }
     }
     .slider__img {
+        
         .img {
             height: 160px;
             width: 255px;
@@ -640,6 +641,7 @@
             background-repeat: no-repeat;
             background-size: 50%;
             background-position: center;
+            margin: 0 auto;
         }
     }
 }
@@ -659,7 +661,7 @@
     left: -18px; 
 }
 .slick-next{
-    right: -2px;
+    right: -8px;
     top: 72px;
     position: absolute;
 }

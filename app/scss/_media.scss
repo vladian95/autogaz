@@ -26,6 +26,11 @@
         }
         max-width: 50%;
     }
+    .tech-inspection__form{
+        &::before{
+            display: none;
+        }
+    }
 }
 @media (max-width: 1230px){
     .tabs{
@@ -33,6 +38,23 @@
             width: 259px;
         }
     }
+    .tech-inspection__inner{
+        display: block;
+    }
+    .tech-inspection__form{
+        max-width: 100%;
+        padding: 20px 0px;
+        button{
+            display: block;
+            margin: 20px auto;
+        }
+    }
+    .slider{
+        h2{
+            font-size: 29px;
+            line-height: 36px;
+        }
+    } 
 }
 @media (max-width: 1127px){
     .tabs{
@@ -49,11 +71,30 @@
     .advantages__item{
         max-width: 100%;
     }
+    .steps{
+        h2{
+            font-size: 30px;
+        }
+    } 
+    .steps__item{
+        max-width: 50%;
+        p{
+            max-width: 100%;
+        }
+    }
+    .slider{
+        h2{
+            text-align: center;
+            font-size: 19px;
+            line-height: 23px;
+        }
+    } 
 }
 @media (max-width: 860px){
     .header{
         p{
             max-width: 575px; 
+            font-size: 25px;
         }
     }
     .header__logo-box{
@@ -96,6 +137,29 @@
             }
         }
     } 
+    .tech-inspection__content{
+        width: 580px;
+        h4{
+            margin-bottom: -27px;
+            font-size: 32px;
+        }
+        .bg-box{
+            h3{
+                font-size: 30px;
+            }
+        } 
+        h2{
+            font-size: 30px;
+        }
+    }
+    .tech-inspection__form{
+        .input__phone{
+            margin: 8px;
+        }
+        .input__name{
+            margin: 8px;
+        }
+    } 
 }
 @media (max-width: 740px){
     .header__form{
@@ -111,6 +175,9 @@
             font-size: 30px;
         }
     } 
+    .steps__item{
+        max-width: 100%;
+    }
 }
 @media (max-width: 660px){
     .header{
@@ -154,7 +221,42 @@
                 width: 100%;
             }
         }
-    }  
+    } 
+    .tech-inspection__content{
+        width: 448px;
+        h4{
+            margin-bottom: -15px;
+            font-size: 22px;
+        }
+        .bg-box{
+            h3{
+                font-size: 21px;
+            }
+        } 
+        h2{
+            font-size: 26px;
+            margin-top: 28px;
+        }
+        .text__box{
+            p{
+                font-size: 14px;
+            }
+        }
+        
+    } 
+    .tech-inspection__form{
+        .input__phone{
+            width: 90%;
+        }
+        .input__name{
+            width: 90%;
+        }
+    } 
+    .steps{
+        h2{
+            font-size: 25px;
+        }
+    } 
 }
 @media (max-width: 570px){
     .header__top{
@@ -186,7 +288,24 @@
                 font-size: 14px;
             }
         }
-    }  
+    } 
+    .steps{
+        h2 {
+            font-size: 19px;
+        }
+    } 
+    .steps__form{
+        form{
+            input{
+                width: 100%;
+            }
+            .main__btn{
+                display: block;
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+        }
+    }
 }
 @media (max-width: 525px){
     .header{
@@ -215,6 +334,59 @@
             }
         }
     }
+    .tech-inspection__content{
+        width: 230px;
+        margin: 0 auto;
+        h4{
+            margin-bottom: -8px;
+            font-size: 17px;
+        }
+        .bg-box{
+            h3{
+                font-size: 14px;
+            }
+        } 
+        h2{
+            font-size: 26px;
+            margin-top: 31px;
+        }
+        .text__box{
+            display: block;
+            P{
+                max-width: 100%;
+                font-size: 14px;
+                & + p{
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+    .tech-inspection__form{
+        padding-bottom: 30px;
+        h2{
+            font-size: 20px;
+            line-height: 0px;
+        }
+        button{
+            width: 215px;
+            height: 56px;
+        }
+        p{
+            max-width: 187px;
+            font-size: 14px;
+        }
+        .check-style{
+            bottom: 10px;
+            left: 50%;
+        }
+    } 
+
+
+
+
+
+
+
 }
 @media (max-width: 435px){
     .clients{

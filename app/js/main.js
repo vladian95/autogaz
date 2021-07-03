@@ -15,7 +15,34 @@ $(function(){
         slidesToScroll: 1,
         dots: true,
         prevArrow: '<button class="slide__arrow slick-prev" style="background-image: url(images/slider/left.png);"></button>',
-        nextArrow: '<button class="slide__arrow slick-next" style="background-image: url(images/slider/right.png);"></button>'
+        nextArrow: '<button class="slide__arrow slick-next" style="background-image: url(images/slider/right.png);"></button>',
+        responsive: [
+            {
+              breakpoint: 1431,
+              settings: {
+                slidesToShow: 4,
+              }
+            },
+            {
+                breakpoint: 1112,
+                settings: {
+                  slidesToShow: 3,
+                }
+              },
+              {
+                breakpoint: 825,
+                settings: {
+                  slidesToShow: 2,
+                }
+              },
+              {
+                breakpoint: 586,
+                settings: {
+                  slidesToShow: 1,
+                  dots: false,
+                }
+              },
+          ]
     });
 
     
