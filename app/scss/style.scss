@@ -4,10 +4,9 @@
 
 .header {
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     min-height: 100vh;
-
     h1 {
         font-size: 72px;
         color: #1b212b;
@@ -40,7 +39,6 @@
     padding-top: 21px;
 }
 .header__logo-box {
-    
     .header__logo {
         position: relative;
         span {
@@ -113,6 +111,7 @@
             background-color: #1a8cbf;
             color: #fff;
             font-weight: 500;
+            cursor: pointer;
             & + button {
                 margin-left: 34px;
             }
@@ -121,6 +120,7 @@
         .main__btn {
             margin-left: -9px;
             background-color: #ee3c3c;
+            cursor: pointer;
         }
     }
 }
@@ -752,3 +752,9 @@
     }
 }
 // footer end
+
+
+
+
+
+@import "media";

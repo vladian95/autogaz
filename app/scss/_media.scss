@@ -1,0 +1,118 @@
+@media (max-width: 860px){
+    .header{
+        p{
+            max-width: 575px; 
+        }
+    }
+    .header__logo-box{
+        p{
+            display: none;
+        }
+    }
+    .header__form{
+        form{
+            .main__btn-second{
+                height: 54px;
+                width: 224px;
+            } 
+            .input__btn{
+                height: 54px;
+                width: 224px;
+            }
+            input{
+                height: 47px;
+                width: 226px;
+            }
+        }
+    }  
+    .header__advantages{
+        .header__advantages-box{
+            margin-left: 0;
+            display: block;
+            .header__advantages-text{
+                margin-top: 4px;
+            }
+        }
+    } 
+}
+@media (max-width: 740px){
+    .header__form{
+        form{
+            .main__btn-second{
+                display: block;
+                margin-top: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 660px){
+    .header{
+        h1{
+            font-size: 62px;
+        }
+        h2{
+            font-size: 28px;
+        }
+        p{
+            font-size: 14px;
+            max-width: 409px;
+        }
+    } 
+}
+@media (max-width: 570px){
+    .header__top{
+        display: block;
+    }
+    .number__inner{
+        justify-content: space-between;
+        margin-top: 10px;
+        .number__box{
+            a{
+                margin-left: 0;
+            }
+        }
+    } 
+}
+@media (max-width: 525px){
+    .header{
+        h1{
+            font-size: 46px;
+        }
+        h2{
+            margin-top: -34px;
+            font-size: 22px;
+        }
+    } 
+    .header__form{
+        form{
+            .main__btn-second{
+                width: 100%;
+            }
+            .input__btn{
+                display: block;
+                width: 100%;
+                margin-left: 0;
+                margin-top: 20px;
+            }
+            .input{
+                width: 100%;
+                text-align: center;
+            }
+        }
+    }
+}
+@media (max-width: 410px){
+    .header{
+        h1{
+            font-size: 35px;
+        }
+        h2{
+            margin-top: -27px;
+            font-size: 19px;
+            margin-bottom: 23px;
+        }
+        p{
+            font-size: 13px;
+        }
+    } 
+}
