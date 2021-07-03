@@ -206,6 +206,9 @@
         color: #fff;
         border-radius: 6px;
         transition: all 0.5s;
+        & + .tab{
+            margin-left: 10px;
+        }
         &.active {
             background-color: #1e95ca;
         }
