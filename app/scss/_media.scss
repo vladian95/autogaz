@@ -96,6 +96,15 @@
             display: inline-block;
         }
     }
+    .footer__bottom{
+        ul{
+            li{
+                & + li{
+                    margin-left: 97px;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 860px){
     .header{
@@ -134,6 +143,15 @@
             }
         }
     } 
+    .footer__bottom{
+        ul{
+            li{
+                & + li{
+                    margin-left: 19px;
+                }
+            }
+        }
+    }
 }
 @media (max-width: 828px){
     .footer__inner{
@@ -208,6 +226,19 @@
     } 
     .steps__item{
         max-width: 100%;
+    }
+}
+@media (max-width: 685px){
+    .footer__bottom{
+        ul{
+            li{
+                display: block;
+                & + li{
+                    margin-left: 0px;
+                    margin-top: 10px;
+                }
+            }
+        } 
     }
 }
 @media (max-width: 660px){
@@ -339,7 +370,6 @@
     }
     .footer__inner{
         ul{
-            text-align: center;
             li{
                 display: block;
             }
@@ -350,14 +380,6 @@
             }
         }
     }
-
-
-
-
-
-
-
-
 }
 @media (max-width: 525px){
     .header{
