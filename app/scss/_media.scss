@@ -90,6 +90,13 @@
         }
     } 
 }
+@media (max-width: 1050px){
+    .company{
+        li{
+            display: inline-block;
+        }
+    }
+}
 @media (max-width: 860px){
     .header{
         p{
@@ -127,6 +134,30 @@
             }
         }
     } 
+}
+@media (max-width: 828px){
+    .footer__inner{
+        display: block;
+        ul{
+            li{
+                a{
+                    line-height: 25px;
+                }
+            }
+        }
+        .company{
+            margin-top: 15px;
+        }
+        .deliver{
+            margin-top: 15px;
+            li{
+                display: inline-block;
+            }
+        }
+        .adrs{
+            margin-top: 15px;
+        }
+    }
 }
 @media (max-width: 790px){
     .advantages__item{
@@ -306,6 +337,27 @@
             }
         }
     }
+    .footer__inner{
+        ul{
+            text-align: center;
+            li{
+                display: block;
+            }
+        }
+        .deliver{
+            li{
+                display: block;
+            }
+        }
+    }
+
+
+
+
+
+
+
+
 }
 @media (max-width: 525px){
     .header{
@@ -380,13 +432,6 @@
             left: 50%;
         }
     } 
-
-
-
-
-
-
-
 }
 @media (max-width: 435px){
     .clients{
@@ -420,5 +465,10 @@
     .main__btn{
         height: 61px;
         width: 224px;
+    }
+    .footer__inner{
+        ul{
+            text-align: left;
+        }
     }
 }
