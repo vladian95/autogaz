@@ -6,11 +6,26 @@ html{
 *::after{
     box-sizing: inherit;
 }
+html,
+body {
+	height: 100%;
+}
 body{
     font-family: 'MullerRegular';
     font-size: 14px;
     background-color: #f6f9fc;
     color: #1b212b;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
 }
 .container{
     max-width: 1390px;
